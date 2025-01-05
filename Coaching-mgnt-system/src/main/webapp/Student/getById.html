@@ -1,0 +1,30 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fetch Student by ID</title>
+  <link rel="stylesheet" href="getById.css"> <!-- Link to the external CSS -->
+</head>
+<body>
+
+<!-- Fetch Student by ID Form -->
+<div class="student-admission">
+  <h2>Fetch Student Information</h2>
+  <form id="fetch-form">
+    <div class="form-group">
+      <label for="studentId">Student ID:</label>
+      <input type="number" id="studentId" name="studentId" placeholder="Enter Student ID" required>
+    </div>
+    <button type="submit" class="btn-submit">Fetch Student</button>
+  </form>
+
+  <form id="studentDetails" class="student-edit">
+    <!-- Student details will be displayed here in tabular form -->
+  </form>
+  <!-- Display student details in table format -->
+</div>
+<script src="getById.js"></script>
+
+</body>
+</html>

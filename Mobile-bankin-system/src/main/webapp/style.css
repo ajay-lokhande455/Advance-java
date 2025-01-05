@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --main-color- : #007bff;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+
+}
+header {
+    background: #007bff;
+    color: #ffffff;
+    padding: 0 8vh;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 333;
+    width: 100%;
+}
+header h1 {
+    margin: 0;
+    padding-top: 12px;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+.hero {
+    text-align: center;
+
+}
+
+.hero-text {
+    position: absolute;
+    top: 35vh;
+    left: 20vw;
+}
+
+.bg-img img {
+    width: 100%;
+    opacity: 0.3;
+    width: 100vh;
+}
+.hero h2 {
+    color: #333333;
+    font-size: 48px;
+}
+li button {
+    width: 100%;
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+li button:hover{
+    background-color: #0056b3;
+}
+
+
+.hero-text p{
+    font-size: 24px;
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #e9ecef;
+}
+.feature {
+    text-align: center;
+    width: 30%;
+}
+.feature h3 {
+    color: #007bff;
+}
+.cta {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+}
+.cta h2 {
+    margin: 0;
+}
+.cta button {
+    margin: 20px;
+    background-color: #ffffff;
+    color: #007bff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.cta button:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}

@@ -1,0 +1,56 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.firstproject</groupId>
+  <artifactId>Coaching-mgnt-system</artifactId>
+  <packaging>war</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>Coaching-mgnt-system Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <!-- https://mvnrepository.com/artifact/jakarta.servlet/jakarta.servlet-api -->
+    <dependency>
+      <groupId>jakarta.servlet</groupId>
+      <artifactId>jakarta.servlet-api</artifactId>
+      <version>6.1.0</version>
+      <scope>provided</scope>
+    </dependency>
+
+
+    <!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
+    <dependency>
+      <groupId>com.mysql</groupId>
+      <artifactId>mysql-connector-j</artifactId>
+      <version>9.1.0</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.36</version>
+      <scope>provided</scope>
+    </dependency>
+
+
+
+    <!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core -->
+    <dependency>
+      <groupId>org.hibernate.orm</groupId>
+      <artifactId>hibernate-core</artifactId>
+      <version>6.6.3.Final</version>
+    </dependency>
+
+
+    <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.9.1</version>
+    </dependency>
+
+  </dependencies>
+  <build>
+    <finalName>Coaching-mgnt-system</finalName>
+  </build>
+</project>
